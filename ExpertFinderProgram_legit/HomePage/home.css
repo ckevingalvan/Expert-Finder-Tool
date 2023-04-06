@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('https://neu.edu.ph/main/assets/images/NEU_Main2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+  }
+  
+  .welcome-box{
+    width: 450px;
+    height: 130px;
+    position: absolute;
+    top: 8%;
+    left: 34%;
+    background: #E1DCDC;
+    border-color: #FFFFFF;
+    border: 7px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #363636;
+    }
+  
+  .welcome-box h1{
+    margin-top: 30px;
+    margin-right: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .welcome-box h2{
+    margin-top: 70px;
+    margin-right: 88px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .welcome-box img {
+    max-width: 100%;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 100px; 
+    height: 100px; 
+  }
+  
+  .student-button{
+    position: absolute;
+    top: 37%;
+    left: 34%;
+    width: 200px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border: 7px solid #1B832B;
+    border-radius: 10px;
+    padding: 12px 12px;
+    box-shadow: 5px 5px 5px #363636;
+  }
+  
+  .student-button:hover{
+    background-color: #7AE999;
+  }
+  
+  .prof-button{
+    position: absolute;
+    top: 37%;
+    left: 53%;
+    width: 200px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border: 7px solid #BE1B1B;
+    border-radius: 10px;
+    padding: 12px 12px;
+    box-shadow: 5px 5px 5px #363636;
+  }
+  
+  .prof-button:hover{
+    background-color: #EA6268;
+  }
+  
+  .student-button h1, .prof-button h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .student-button img, .prof-button img{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 160px; 
+    height: 160px; 
+  }

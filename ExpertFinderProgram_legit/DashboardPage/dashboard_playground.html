@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- TOP NAVIGATION -->
+    <div class="top-nav">
+        <div id="title-dashboard">
+            <h1><i class="title" style="color:white"></i> Expert Connect: The Expert Finder Tool</h1>
+        </div>
+
+        <!-- ProfileLogout Section -->
+        <div id="div-btns-profileLogout">
+          <button class="myProfile-btn">MY PROFILE</button>
+          <button class="logout-btn">LOGOUT</button>
+       </div>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input id="searchBar" type="text" placeholder="Search.." name="search">
+                <button id="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></button>
+            </form>
+        </div>
+
+        <!-- Data Container nung mga nasa leftside pane -->
+        <div class="data-container" id="dataContainer">
+        </div>
+    
+    </div> 
+
+<!------------------------------------------------------------------------------------------------------------->
+
+
+    <!-- LEFT NAVIGATION -->
+    <div class="left-nav">
+        <nav class="left-navbar" style="overflow-y: scroll;">
+            <!-- Header -->
+            <div class="left-navbar-header">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/New_Era_University.svg/1200px-New_Era_University.svg.png" alt="New Era University logo">
+              <h2>NEW ERA UNIVERSITY</h2>
+              <hr>
+              <p class="dashboard-text" style="font-size: 1.1rem; font-weight: bold;">Dashboard</p>
+              <hr>
+              <p class="sort-by-category" style="color: #d6d6c2">SORT BY CATEGORY:</p>
+            </div>
+
+            <!-- Courses Section -->
+            <button class="category-button" onclick="toggleCategorySection()" style="font-size: 1rem;"><b>Courses</b></button>
+            <div class="category-option hidden" id="categoryOption">
+                <button class="category-option">BS Comsci</button>
+                <button class="category-option">BS Information Technology</button>
+            </div>
+
+        </nav> 
+    </div>
+
+
+
+
+
+    <div class="main">
+<!-- class="bg-image" -->   
+    </div>
+    <script src="controller.js"></script>
+</body>
+</html>
+

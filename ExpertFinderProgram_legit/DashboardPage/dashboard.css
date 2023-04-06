@@ -1,0 +1,290 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url('https://neu.edu.ph/main/assets/images/NEU_Main2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1180px;	
+}
+
+/* TOP NAVIGATION */
+.top-nav
+{
+	color:white;
+	font-family: poppins;
+	height: 6.5rem;
+	width: calc(100% - 250px);
+	float: right;
+	background-image: linear-gradient(135deg, #1904E5 10%, #FAB2FF 100%);
+}
+
+/* Title */
+#title-dashboard {
+	float: left;
+	width: 800px;
+	padding-left: 20px;
+	padding-top: 12px;
+}
+@media screen and (max-width: 600px) {
+	.top-nav .search-container {
+		float: none;
+	}
+	.top-nav a, .top-nav input[type=text], .top-nav .search-container button {
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+	}  
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Search Bar */
+.top-nav .search-container {
+	height: 50px;
+	width: 550px;
+	padding-top: 20px;
+	float: right;
+}
+#searchBar {
+	width: 400px;
+	border-radius: 10px;
+	height: 40px;
+}
+.top-nav input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 20px;
+	border: none;
+}
+.top-nav .search-container button {
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	height: 50px;
+    width: 60px;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Logout Bar */
+#div-btns-profileLogout	{
+	float: right;
+	width: 300px;
+	height: 50px;
+	margin-top: 30px;
+}
+.logout-btn {
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+	width: 40%;
+	height: 50px;
+}
+.logout-btn:hover {
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+.logout-btn:active {
+	position:relative;
+	top:1px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Profile Bar */
+.myProfile-btn {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+	margin-right: 10px;
+	height: 50px;
+}
+.myProfile-btn:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myProfile-btn:active {
+	position:relative;
+	top:1px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* LEFT NAVIGATION */
+.left-nav {
+	height: 100%;
+	background-color: #1E4FFF;
+	background-image: linear-gradient(135deg, #1904E5 10%, #FAB2FF 100%);
+	width: 250px;
+	top: 0;
+	left: 0;
+    position: fixed;
+	color: #fff;
+	flex-direction: column;
+	align-items: center;
+    justify-content: flex-start;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Header */
+.left-navbar-header hr {
+	border: none;
+	height: 1px;
+	background-color: #fff;
+	margin: 10px 0;
+	width: 100%;
+}
+.left-navbar-header p {
+	margin: 0;
+	text-align: left;
+	font-size: 0.8rem;
+	line-height: 2.0;
+}
+
+.left-navbar-header {
+    cursor: default;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 10px;
+    display: flex; /* use flexbox */
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    flex-direction: column;
+}
+	
+.left-navbar-header img {
+	max-width: 100%;
+	border-radius: 50%;
+	display: block;
+	margin-bottom: 10px;
+	width: 150px; 
+	height: 150px;
+}	
+.left-navbar-header img {
+	max-width: 100%;
+	border-radius: 50%;
+	display: block;
+	margin-bottom: 10px;
+	width: 150px; 
+	height: 150px;
+}
+		
+/* ---------------------------------------------------------------------------------------- */
+
+/* Category Section */
+.left-navbar .category-button {
+    font-size: 0.8rem;
+    display: block;
+    width: 170.859px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto; 
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.left-navbar .category-button:hover{
+	background-color: #fff;
+	color: #1E4FFF;
+}
+		
+/* ---------------------------------------------------------------------------------------- */
+
+/* Category Option*/
+.left-navbar .category-option {
+	text-align: left;
+	padding-left: 20px;
+    font-size: 0.8rem;
+
+    dis
+    width: 170.859px;
+    line-height: 40px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+
+	/* For Transition*/
+	height: 0;
+	overflow: hidden;
+	transition: height 0.3s ease-in-out;
+}
+	/* For Transition */
+.left-navbar .category-option:not(.hidden){
+	height:40px;
+}
+
+
+.left-navbar .category-option:hover{
+	background-color: #fff;
+	color: #1E4FFF;
+}	
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Category Data Container */
+.data-container{
+	display: none;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: auto; 
+	margin-top: 200px;
+	height: 600px; 
+	width: 1000px;
+	border-radius: 20px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+}
+  
+.data-container h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+  
+.data-container p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+  
+  
